@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: For Loop
+# key: for
+# --
+for (${1:int i = 0}; ${2:i < n}; ${3:i++}) {
+    ${4:/* código */}
+}
+$0

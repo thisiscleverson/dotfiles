@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: Switch Statement
+# key: sw
+# --
+switch (${1:expression}) {
+    case ${2:value1}:
+        ${3:/* código */}
+        break;
+    case ${4:value2}:
+        ${5:/* código */}
+        break;
+    default:
+        ${6:/* código */}
+        break;
+}
+$0

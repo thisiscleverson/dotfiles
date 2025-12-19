@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Programa C Completo
+# key: main
+# --
+#include <stdio.h>
+#include <stdlib.h>
+
+${1:int main(int argc, char *argv[])}{
+    ${2:printf("Hello, World!\\n");}
+    return 0;
+}
+$0
